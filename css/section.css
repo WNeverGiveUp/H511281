@@ -1,0 +1,157 @@
+.box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.box>h1{
+	width: 100%;
+	height: 0.18rem;
+}
+.box>header{
+	width: 100%;
+	height: 0.4rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #c6cbd8;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.box>header a{
+	color: #5e5e5e;
+	font-size: 13px;
+	text-align: center;
+}
+.box>header a i{
+	display: block;
+	font-size: 20px;
+}
+.box>header p{
+	color: #5e5e5e;
+	font-size: 13px;
+}
+.box>header p span{
+	display: inline-block;
+	width: 0.09rem;
+	height: 0.05rem;
+	background: url(../img/jiao.jpg) no-repeat;
+	background-size: cover;
+}
+.box>header h2 i{
+	display: inline-block;
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 0.13rem 0 0 0.13rem;
+	background: #f4f4f4;
+	font-size: 13px;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.box>header h2 input{
+	width: 2.13rem;
+	height: 0.25rem;
+	border-radius: 0 0.13rem 0.13rem 0;
+	background: #f4f4f4;
+	border: 0;
+}
+.box>header h3{
+	color: #5e5e5e;
+	font-size: 15px;
+}
+.box>section{
+	flex: 1;
+}
+.box>section .top img{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 0.01rem solid #dde2f2;
+}
+.box>section .pic{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 1.01rem;
+	border-bottom: 0.01rem solid #dde2f2;
+}
+.box>section .pic li span{
+	color: #5e5e5e;
+	font-size: 11px;
+}
+.box>section .pic li img{
+	width: 0.56rem;
+	height: 0.52rem;
+	display: block;
+}
+/*pic2*/
+.box>section .pic2{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	height: 1.41rem;
+	justify-content: space-between;
+	margin-left: 0.10rem;
+}
+.box>section .pic2 li{
+	width: 18%;
+}
+.box>section .pic2 li span{
+	color: #5e5e5e;
+	font-size: 11px;
+}
+.box>section .pic2 li img{
+	width: 0.52rem;
+	height: 0.52rem;
+	display: block;
+}
+/*分界线*/
+.box>section .banner2{
+	width: 100%;
+	height: 0.99rem;
+	background: #f4f4f4;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box>section .banner2 img{
+	display: block;
+	width: 3.54rem;
+	height: 0.78rem;
+}
+.box>section .banner3{
+	width: 100%;
+	height: 1.25rem;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	overflow: auto;
+}
+.box>section .banner3 li{
+	width: 48%;
+	height: 1.14rem;
+	margin-top: 0.1rem;
+}
+.box>section .banner3 li img{
+	width: 100%;
+	background-size: cover;
+}
+
+/*               分界线          */
+.box>footer{
+	width: 100%;
+	height: 0.44rem;
+	border-top: 0.01rem solid #f3f1f2;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box>footer i{
+	display: block;
+	font-size: 20px;
+ 	color: #565555;
+}
+.box>footer a{
+	font-size: 13px;
+	color: #9e9a92;
+	text-align: center;
+}
